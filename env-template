@@ -1,0 +1,9 @@
+# Minio data directory in the host:
+MINIO_DATA_DIR=/data/longhorn
+MINIO_USER=test
+MINIO_PASS=Strong#Pass#2022
+
+#------------------------------------------------------------------------
+# MODIFY ONLY WHEN UPGRADING:
+NGINX_IMAGE=registry.xx.com/dockerhub-proxy/nginx:1.23.4-alpine
+MINIO_IMAGE=registry.xx.com/dockerhub-proxy/minio/minio:RELEASE.2023-04-20T17-56-55Z
